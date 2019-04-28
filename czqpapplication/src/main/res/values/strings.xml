@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">CZQPApplication</string>
+    <!-- IP地址及端口号 -->
+    <string name="ip_default">47.100.12.195</string>
+    <string name="hint_ip">请输入服务IP</string>
+    <string name="title_ip">服务IP</string>
+    <string name="port_default">3301</string>
+    <string name="hint_port">请输入服务端口号</string>
+    <string name="title_port">服务端口号</string>
+    <!-- 气瓶流转信息相关字符串 -->
+    <string name="tagBasicInfo">气瓶基本资料</string>
+    <string name="tv_userregincode">电子标签号</string>
+    <string name="tv_gh">气瓶钢号</string>
+    <string name="tv_company">产权单位</string>
+    <string name="tv_qptype">气瓶类型 </string>
+    <string name="tv_media">充装介质</string>
+    <string name="tv_manufacture">制造单位</string>
+    <string name="tv_madeDate">制造日期</string>
+    <string name="tv_nextCheckDate">下次检验日期</string>
+    <string name="tv_checkResult">检验结果</string>
+    <string name="tagMadeInfo">生产充装信息</string>
+    <string name="tv_receiveDate">收瓶日期</string>
+    <string name="tv_receiveFromStation">回收站点</string>
+    <string name="tv_fullDate">充装日期</string>
+    <string name="tv_fullWeight">气体充装量</string>
+    <string name="tv_sendDate">发瓶日期</string>
+    <string name="tv_sendToStation">发往站点</string>
+    <string name="tagSaleOfFullInfo">满瓶销售信息</string>
+    <string name="tv_f_custormName">客户名称</string>
+    <string name="tv_f_custormType">客户类型</string>
+    <string name="tv_f_custormCountry">区县街道</string>
+    <string name="tv_f_custormAddress">客户地址</string>
+    <string name="tv_f_supplyStation">供应站点</string>
+    <string name="tv_f_truckNO">车牌号</string>
+    <string name="tv_f_saleMan">配送人员</string>
+    <string name="tv_f_saleID">销售单号</string>
+    <string name="tv_f_saleDate">订单日期</string>
+    <string name="tv_f_saleFinishDate">完成日期</string>
+    <string name="tv_f_goods">商品</string>
+    <string name="tv_f_saleGPS">销售GPS</string>
+    <string name="tv_f_fullNumber">满瓶号</string>
+    <string name="tv_f_emptyNumber">空瓶号</string>
+    <string name="tv_f_searchResult">安检结果</string>
+    <string name="tagSaleOfEmptylInfo">空瓶回收信息</string>
+    <string name="tv_e_custormName">客户名称</string>
+    <string name="tv_e_custormType">客户类型</string>
+    <string name="tv_e_custormCountry">区县街道</string>
+    <string name="tv_e_custormAddress">客户地址</string>
+    <string name="tv_e_supplyStation">供应站点</string>
+    <string name="tv_e_truckNO">车牌号</string>
+    <string name="tv_e_saleMan">配送人员</string>
+    <string name="tv_e_saleID">销售单号</string>
+    <string name="tv_e_saleDate">订单日期</string>
+    <string name="tv_e_saleFinishDate">完成日期</string>
+    <string name="tv_e_goods">商品</string>
+    <string name="tv_e_saleGPS">销售GPS</string>
+    <string name="tv_e_fullNumber">满瓶号</string>
+    <string name="tv_e_emptyNumber">空瓶号</string>
+    <string name="tv_e_searchResult">安检结果</string>
+    <string name="title_activity_input">InputActivity</string>
+    <string name="title_activity_main_memu">MainMemuActivity</string>
+    <string name="title_activity_nfconly">NFCOnlyActivity</string>
+
+    <!-- 手输 -->
+    <string name="tv_com">单&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;位</string>
+    <string name="tv_pre">电子标签号</string>
+</resources>

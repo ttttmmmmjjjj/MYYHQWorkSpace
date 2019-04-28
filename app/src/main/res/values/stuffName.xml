@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="stuffName">
+        <item>李素琴</item>
+        <item>孙知名</item>
+        <item>王朝夕</item>
+    </string-array>
+</resources>

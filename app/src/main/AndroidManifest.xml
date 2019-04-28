@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hsic.sy.supplystationmanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="com.hsic.sy.search.bean.ApplicationHelper"
+        android:allowBackup="true"
+        android:icon="@drawable/shrqicon"
+        android:label="液化气管理系统"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.MainActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.PlaceOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.ScanQPTagActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.PickGoodsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.CanselOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".SetBlueToothPrinter"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".AdvConfigActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.DelayPrintActivity"
+            android:label="@string/title_activity_delay_print"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.ScanOneDecodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <!-- 百度地图 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="dlQl7QMmMhZAs6aRgQNSbqMznmEC1eMj" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity
+            android:name="com.hsic.sy.doorsale.Activity.ExchangeGoodsActivity"
+            android:label="@string/title_activity_exchange_goods"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hsic.sy.supply.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar">
+
+            <!-- 主页面 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.GPManagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.UserManagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.TruckManager"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <!-- <activity -->
+        <!-- android:name="com.hsic.sy.supply.activity.DropEditTextActivity" -->
+        <!-- android:theme="@style/NoActionBar" -->
+        <!-- android:screenOrientation="portrait"  > -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.hsic.sy.supply.activity.ListViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.SearchLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.SerachActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.SearchLoginOk"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.AddFullQPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.ZWKTActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.KTPicViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.KTBigPreViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.QueryTruckNoActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.QueryMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.TruckNoDetailActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.SearchPicPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.SearchBigPreViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.QueryFullBottleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.LoginByInputActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.LoginOkActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name="com.hsic.sy.supply.activity.ReadTag"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"></activity>
+        <!--  -->
+        <!-- <provider -->
+        <!-- android:authorities="${applicationId}.provider" -->
+        <!-- android:name="android.support.v4.content.FileProvider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/provider_paths"/> -->
+        <!-- </provider> -->
+        <activity
+            android:name="com.hsic.sy.supply.activity.TransferSationActivity"
+            android:label="@string/title_activity_transfer_sation"
+            android:theme="@style/NoActionBar"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/title_server" >
+
+        <!-- 设备型号 -->
+        <Preference
+            android:defaultValue="@string/devicetype_default"
+            android:key="devicetype"
+            android:title="@string/title_devicetype" />
+        <!-- 设备编号 -->
+        <Preference
+            android:key="deviceid"
+            android:title="@string/title_deviceid" />
+        <!-- 应用版本 -->
+        <Preference
+            android:defaultValue="@string/version_default"
+            android:key="version"
+            android:title="@string/title_version" />
+        <!-- 蓝牙MAC -->
+        <Preference
+            android:key="bluetooth"
+            android:title="@string/title_bluetooth" />
+        <!-- 数据库版本 -->
+        <Preference
+            android:defaultValue="@string/db_default"
+            android:key="dbversion"
+            android:title="@string/title_dbversion" />
+        <!-- 供应站管理服务 -->
+        <EditTextPreference
+            android:defaultValue="@string/station_default"
+            android:dialogTitle="@string/txt_stationserver"
+            android:key="StationServer"
+            android:summary="@string/hint_stationserver"
+            android:title="@string/title_stationserver" />
+        <!-- 钢瓶信息采集服务 -->
+        <EditTextPreference
+            android:defaultValue="@string/gp_default"
+            android:dialogTitle="@string/txt_gpserver"
+            android:key="GPServer"
+            android:summary="@string/hint_gpserver"
+            android:title="@string/title_gpserver" />
+        <!--供应站管理服务 端口号-->
+         <EditTextPreference
+            android:defaultValue="@string/stationport_default"
+            android:dialogTitle="@string/text_stationport"
+            android:key="StationPort"
+            android:summary="@string/hint_stationport"
+            android:title="@string/title_stationport" />
+         <!--钢瓶信息采集服务  端口号-->
+         <EditTextPreference
+            android:defaultValue="@string/gpport_default"
+            android:dialogTitle="@string/text_gpport"
+            android:key="GPPort"
+            android:summary="@string/hint_gpport"
+            android:title="@string/title_gpport" />
+         
+         <!-- FTP地址 -->
+          <EditTextPreference
+            android:defaultValue="@string/ftp_default"
+            android:dialogTitle="@string/text_ftpserver"
+            android:key="FTPServer"
+            android:summary="@string/hint_ftpserver"
+            android:title="@string/title_ftpserver" />
+           <!-- FTP端口 -->
+          <EditTextPreference
+            android:defaultValue="@string/ftpport_default"
+            android:dialogTitle="@string/txt_ftpport"
+            android:key="FTPPort"
+            android:summary="@string/hint_ftpport"
+            android:title="@string/title_ftpport" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

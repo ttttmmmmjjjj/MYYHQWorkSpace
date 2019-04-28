@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/title_server" >
+
+        <!-- 设备型号 -->
+        <Preference
+            android:defaultValue="@string/devicetype_default"
+            android:key="devicetype"
+            android:title="@string/title_devicetype" />
+        <!-- 设备编号 -->
+        <Preference
+            android:key="deviceid"
+            android:title="@string/title_deviceid" />
+        <!-- 应用版本 -->
+        <Preference
+            android:defaultValue="@string/version_default"
+            android:key="version"
+            android:title="@string/title_version" />
+        <!-- 蓝牙MAC -->
+        <Preference
+            android:key="bluetooth"
+            android:title="@string/title_bluetooth" />
+        <!-- 数据库版本 -->
+        <!--<Preference-->
+            <!--android:defaultValue="@string/db_default"-->
+            <!--android:key="dbversion"-->
+            <!--android:title="@string/title_dbversion" />-->
+        <!-- 后台服务 -->
+        <EditTextPreference
+            android:defaultValue="@string/qp_default"
+            android:dialogTitle="@string/text_webserver"
+            android:key="QPwebServer"
+            android:summary="@string/hint_webserver"
+            android:title="@string/title_webserver" />
+        <EditTextPreference
+            android:defaultValue="@string/ftp_default"
+            android:dialogTitle="@string/text_ftpserver"
+            android:key="FTPServer"
+            android:summary="@string/hint_ftpserver"
+            android:title="@string/title_ftpserver" />
+        <!-- 端口号 -->
+         <EditTextPreference
+            android:defaultValue="@string/port_default"
+            android:dialogTitle="@string/text_port"
+            android:key="QPPort"
+            android:summary="@string/hint_port"
+            android:title="@string/title_port" />
+         <!-- FTP端口号 -->
+         <EditTextPreference
+            android:defaultValue="@string/value_ftp_port"
+            android:dialogTitle="@string/text_port_ftp"
+            android:key="QFTPPort"
+            android:summary="@string/hint_port_ftp"
+            android:title="@string/title_port_ftp" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

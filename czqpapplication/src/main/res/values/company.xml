@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="companyName">
+        <item>上海燃气崇明有限公司</item>
+        <item>上海奉贤燃气股份有限公司</item>
+        <item>上海金山燃气有限公司</item>
+        <item>上海市南汇液化气公司</item>
+        <item>上海东海液化气有限公司</item>
+        <item>上海恒申燃气发展有限公司</item>
+        <item>上海青浦区煤气管理所</item>
+        <item>上海中信燃气有限公司</item>
+        <item>嘉定燃气有限公司</item>
+        <item>上海百斯特能源发展有限公司</item>
+        <item>上海苏创浦西燃气有限公司(百斯特B)</item>
+        <item>喜威(上海)液化石油气有限公司</item>
+        <item>上海液化石油气经营有限公司</item>
+        <item>上海奉贤交通液化气有限公司</item>
+    </string-array>
+    <string-array name="CN">
+        <item>上海燃气崇明有限公司</item>
+        <item>上海奉贤燃气股份有限公司</item>
+        <item>上海金山燃气有限公司</item>
+        <item>上海市南汇液化气公司</item>
+        <item>上海东海液化气有限公司</item>
+        <item>上海恒申燃气发展有限公司</item>
+        <item>上海青浦区煤气管理所</item>
+        <item>上海中信燃气有限公司</item>
+        <item>嘉定燃气有限公司</item>
+        <item>上海百斯特能源发展有限公司</item>
+        <item>上海苏创浦西燃气有限公司(百斯特B)</item>
+        <item>喜威(上海)液化石油气有限公司</item>
+        <item>上海液化石油气经营有限公司</item>
+        <item>上海奉贤交通液化气有限公司</item>
+    </string-array>
+    <string-array name="companyCode">
+        <item>3007</item>
+        <item>2005</item>
+        <item>1607</item>
+        <item>1906</item>
+        <item>1909</item>
+        <item>1910</item>
+        <item>1808</item>
+        <item>1707</item>
+        <item>1414</item>
+        <item>1512</item>
+        <item>1320</item>
+        <item>1329</item>
+        <item>1211</item>
+        <item>2010</item>
+    </string-array>
+</resources>

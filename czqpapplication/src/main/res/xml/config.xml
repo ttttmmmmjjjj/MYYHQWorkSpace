@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="配置服务" >
+	 <!-- IP地址 -->
+        <EditTextPreference
+            android:defaultValue="@string/ip_default"
+            android:key="ip"
+            android:summary="@string/hint_ip"
+            android:title="@string/title_ip" />
+        <!-- 端口号 -->
+        <EditTextPreference
+            android:defaultValue="@string/port_default"
+            android:key="port"
+            android:summary="@string/hint_port"
+            android:title="@string/title_port" /> 
+    </PreferenceCategory>
+
+</PreferenceScreen>

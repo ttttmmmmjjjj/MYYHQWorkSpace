@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MYYHQWorkSpace.iml" filepath="$PROJECT_DIR$/MYYHQWorkSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/czqpapplication/czqpapplication.iml" filepath="$PROJECT_DIR$/czqpapplication/czqpapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialoglibrary/dialoglibrary.iml" filepath="$PROJECT_DIR$/dialoglibrary/dialoglibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dragdellistview/dragdellistview.iml" filepath="$PROJECT_DIR$/dragdellistview/dragdellistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatbutton/floatbutton.iml" filepath="$PROJECT_DIR$/floatbutton/floatbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxqpmanager/fxqpmanager.iml" filepath="$PROJECT_DIR$/fxqpmanager/fxqpmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gridview/gridview.iml" filepath="$PROJECT_DIR$/gridview/gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qpmanagermobilebackupversion/qpmanagermobilebackupversion.iml" filepath="$PROJECT_DIR$/qpmanagermobilebackupversion/qpmanagermobilebackupversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refreshlayout/refreshlayout.iml" filepath="$PROJECT_DIR$/refreshlayout/refreshlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spinerwindow/spinerwindow.iml" filepath="$PROJECT_DIR$/spinerwindow/spinerwindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szapplication/szapplication.iml" filepath="$PROJECT_DIR$/szapplication/szapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wheelview/wheelview.iml" filepath="$PROJECT_DIR$/wheelview/wheelview.iml" />
+    </modules>
+  </component>
+</project>

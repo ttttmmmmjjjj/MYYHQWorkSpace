@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/usericon" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="用户信息"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="250dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp">
+
+            <TextView
+                android:id="@+id/txt_userinfo1"
+                android:layout_width="300dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/txt_userinfo"
+                android:layout_centerHorizontal="true"
+                android:lineSpacingMultiplier="1.25"
+                android:paddingBottom="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:text="111"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_userinfo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_userinfo1"
+                android:layout_alignParentTop="true"
+                android:lineSpacingMultiplier="1.25"
+                android:paddingBottom="0dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:paddingTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/present"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/presentbotton"
+                android:layout_alignBottom="@+id/presentbotton"
+                android:layout_alignLeft="@+id/txt_userinfo1"
+                android:layout_alignStart="@+id/txt_userinfo1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:textColor="#000000"
+                android:text="未赠送橡皮管"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/heatbotton"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/presentbotton"
+                android:layout_marginLeft="2dp"
+                android:text="热水器登记"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/cook_txt"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/cook"
+                android:layout_alignBottom="@+id/cook"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="0dp"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/cook"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/heatbotton"
+                android:layout_alignBottom="@+id/heatbotton"
+                android:layout_alignLeft="@+id/presentbotton"
+                android:text="更换灶具"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/cookbotton"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/heatbotton"
+                android:layout_alignBottom="@+id/heatbotton"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@+id/heatbotton"
+                android:text="灶具登记"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/presentbotton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/txt_userinfo1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/txt_userinfo1"
+                android:text="点击赠送"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="气瓶交易信息"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cccccc" >
+
+        <TextView
+            android:id="@+id/blow"
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:background="#999999"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/above"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="#999999"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/txt_gpinfo3"
+                android:layout_width="130dp"
+                android:layout_height="34dp"
+                android:layout_below="@+id/txt_gpinfo1"
+                android:paddingTop="2dp"
+                android:text="本次交付气瓶号:"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_gpinfo4"
+                android:layout_width="200dp"
+                android:layout_height="34dp"
+                android:layout_below="@+id/txt_gpinfo2"
+                android:layout_toRightOf="@+id/txt_gpinfo3"
+                android:ellipsize="end"
+                android:paddingTop="2dp"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_gpinfo1"
+                android:layout_width="130dp"
+                android:layout_height="34dp"
+                android:layout_above="@+id/txt_gpinfo4"
+                android:layout_toLeftOf="@+id/txt_gpinfo4"
+                android:paddingTop="2dp"
+                android:text="上次借用气瓶号:"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/checklook1"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignBaseline="@+id/txt_gpinfo4"
+                android:layout_alignBottom="@+id/txt_gpinfo4"
+                android:layout_alignRight="@+id/txt_gpinfo4"
+                android:text="查看"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/checklook"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_above="@+id/checklook1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="查看"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_gpinfo2"
+                android:layout_width="200dp"
+                android:layout_height="34dp"
+                android:layout_alignLeft="@+id/txt_gpinfo4"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:paddingTop="2dp"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/btn_qpr"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_delivertask_selector"
+            android:drawableTop="@drawable/readtag"
+            android:text="扫描气瓶"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_delivertask_selector"
+            android:drawableTop="@drawable/xj"
+            android:text="安全巡检"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+        <Button
+            android:id="@+id/btn_qps"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/btn_delivertask_selector"
+            android:drawableTop="@drawable/submit"
+            android:text="提交订单"
+            android:textColor="#000000" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_delivertask_selector"
+            android:drawableTop="@drawable/print"
+            android:text="支付-打印"
+            android:textColor="#000000" />
+
+
+    </TableRow>
+
+</LinearLayout>

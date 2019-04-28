@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">网络测试</string>
+    <string name="title_activity_home">首页</string>
+    <string name="title_activity_query">查询</string>
+    <string name="title_activity_count">统计</string>
+    <string name="title_activity_my">我的</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>

@@ -1,0 +1,99 @@
+<resources>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about_us">关于</string>
+    <string name="app_name">全配送应急版</string>
+    <string name="title_server">应用基本配置信息</string>
+    <string name="devicetype_default">0000000</string>
+    <string name="title_devicetype">设备型号</string>
+    <string name="title_deviceid">设备编号</string>
+    <string name="version_default">1.0</string>
+    <string name="title_version">应用版本</string>
+    <string name="title_bluetooth">设置打印机蓝牙</string>
+    <!-- 服务端口号 -->
+    <!--<string name="text_port">输入端口号</string>-->
+    <!--<string name="hint_port">在此输入端口号</string>-->
+    <!--<string name="title_port">端口号</string>-->
+    <!--<string name="port_default">83</string>-->
+
+    <!-- 后台服务 -->
+    <string name="value_web_time">30</string>
+    <string name="qp_default">10.123.16.188</string>
+    <string name="text_webserver">输入后台服务IP地址</string>
+    <string name="hint_webserver">在此输入后台服务IP地址</string>
+    <string name="title_webserver">后台服务IP地址</string>
+    <string name="gpport_default">80</string>
+    <string name="text_gpport">输入服务端口号</string>
+    <string name="hint_gpport">在此输入服务端口号</string>
+    <string name="title_gpport">服务端口号</string>
+    <!-- FTP -->
+    <string name="text_port_ftp">输入FTP端口号</string>
+    <string name="hint_port_ftp">在此输入FTP端口号</string>
+    <string name="title_port_ftp">FTP端口号</string>
+    <string name="ftp_default">10.123.16.188</string>
+    <string name="text_ftpserver">输入文件上传服务IP地址</string>
+    <string name="hint_ftpserver">在此输入FTP服务IP地址</string>
+    <string name="title_ftpserver">FTP服务IP地址</string>
+    <string name="title_webtest">网络测试</string>
+    <string name="title_activity_delay_print">DelayPrintActivity</string>
+    <string name="title_activity_exchange_goods">ExchangeGoodsActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!--Ftp默认值 -->
+    <string name="ftpport_default">22</string>
+    <string name="txt_ftpport">输入文件上传FTP端口号</string>
+    <string name="hint_ftpport">在此输入FTP端口号</string>
+    <string name="title_ftpport">FTP服务端口号</string>
+    <string name="value_ftp_time">30</string>
+    <string name="value_ftp_port">22</string>
+    <string name="value_ftp_user">shlpg</string>
+    <string name="value_ftp_password">shlpg</string>
+    <!-- 巡检项 -->
+    <string name="StopSupplyType1">调压器泄漏</string>
+    <string name="StopSupplyType2">热水器无烟道或烟道安装不规范</string>
+    <string name="StopSupplyType3">使用场所不规范</string>
+    <!-- -20181214 未按规定安装使用泄漏报警器 改为 未安装燃气报警装置 -->
+    <string name="StopSupplyType4">未安装燃气报警装置 </string>
+    <!-- -20181214 调压器使用不规范 改为 中低压不匹配 -->
+    <string name="StopSupplyType5">中低压不匹配</string>
+    <!-- -20181214 商业餐饮用户未按规定设瓶组间或无瓶库 改为 中低压不匹配 -->
+    <string name="StopSupplyType6">钢瓶总量超标未设瓶库</string>
+    <string name="StopSupplyType7">同室使用二种及以上气源</string>
+
+    <!-- s8取消之后更改为“其他隐患” -->
+    <string name="StopSupplyType8">其他严重隐患</string>
+    <string name="UnInstallType1">使用非强制排风热水器</string>
+    <!-- -20181214 U2 燃气具设施未年检  【新增】 -->
+    <string name="UnInstallType2">燃气具设施未年检</string>
+    <string name="UnInstallType3">使用非安全型灶具</string>
+    <string name="UnInstallType4">使用场所排风不畅</string>
+    <!-- 20181214 U5 用气场所设置不合理  【新增】-->
+    <string name="UnInstallType5">用气场所设置不合理</string>
+    <!-- -20181214 橡胶管使用不规范 改为 橡胶管隐患 -->
+    <string name="UnInstallType6">橡胶管隐患</string>
+    <!-- 20181214 -U7 蒸饭箱沸水炉未装烟道 【新增】 -->
+    <string name="UnInstallType7">蒸饭箱沸水炉未装烟道</string>
+    <string name="UnInstallType8">连接设施无夹箍</string>
+    <!-- -20181214 燃气具故障 改为 调压器老化 -->
+    <string name="UnInstallType9">调压器老化</string>
+    <string name="UnInstallType10">强制使用液化气</string>
+    <string name="UnInstallType11">餐饮用户灶位排烟设施不全</string>
+    <string name="UnInstallType12">其他隐患</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- 公司单位以及联系电话 -->
+    <string name="key_str">key</string>
+    <string name="title_str">配送公司</string>
+    <string name="title_listpreference">选择配送公司</string>
+
+    <string-array name="entries_str">
+        <item>上液备用(测试)</item>
+        <item>上液备用(正式)</item>
+    </string-array>
+    <string-array name="entries_values_str">
+        <!-- 上液备用(测试) -->
+        <item>SY_T</item>
+        <!-- 上液备用(正式) -->
+        <item>SY_N</item>
+    </string-array>
+
+    <string name="dialog_title">请选择选择配送公司</string>
+    <string name="summary_str"></string>
+</resources>

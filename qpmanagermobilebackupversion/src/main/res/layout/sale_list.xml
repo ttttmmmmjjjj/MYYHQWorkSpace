@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="3dp"
+            android:text="序号："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/xuhaotask"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="送气编号："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/userid"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:text=""
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="3dp"
+            android:text="姓名："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="来电电话："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/handPhone3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="商品："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/goodsname"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="联系电话："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/telephone"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="地址："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/saleID_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单号："
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/saleID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

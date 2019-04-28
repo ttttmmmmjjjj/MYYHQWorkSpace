@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/czqpapplication" />
+            <option value="$PROJECT_DIR$/dialoglibrary" />
+            <option value="$PROJECT_DIR$/dragdellistview" />
+            <option value="$PROJECT_DIR$/floatbutton" />
+            <option value="$PROJECT_DIR$/fxqpmanager" />
+            <option value="$PROJECT_DIR$/gridview" />
+            <option value="$PROJECT_DIR$/qpmanagermobilebackupversion" />
+            <option value="$PROJECT_DIR$/refreshlayout" />
+            <option value="$PROJECT_DIR$/spinerwindow" />
+            <option value="$PROJECT_DIR$/szapplication" />
+            <option value="$PROJECT_DIR$/wheelview" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

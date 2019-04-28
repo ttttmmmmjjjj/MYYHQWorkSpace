@@ -1,0 +1,191 @@
+<resources>下单
+    <string name="app_name">门售</string>
+    <string name="btn_placeOrder">下单</string>
+    <string name="btn_pickGoods">提货</string>
+    <string name="btn_print">打印</string>
+    <string name="btn_exchangegoods">换货</string>
+    <string name="btn_canselOrder">作废</string>
+    <string name="btn_count">统计</string>
+    <string name="title_activity_place_order">PlaceOrderActivity</string>
+    <string name="rdoBtn_userid">用户编号</string>
+    <string name="rdoBtn_userName">用户姓名</string>
+    <string name="btn_upGoods">新增商品</string>
+    <string name="btn_upAccessory">新增配件</string>
+    <string name="btn_scanEmpty">扫描空瓶</string>
+    <string name="btn_submit">提交订单</string>
+    <string name="txt_userInfo">用户信息</string>
+    <string name="txt_goodsInfo">商品信息</string>
+    <string name="txt_saleInfo">订单信息</string>
+    <string name="title_activity_scan_qptag">ScanQPTagActivity</string>
+    <string name="station">站点:测试站</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="menu_search">查找</string>
+    <string name="menu_notifications">通知</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about_us">关于</string>
+    <string name="home_page">提货</string>
+    <!-- -->
+    <string name="title_server">应用基本配置信息</string>
+    <string name="devicetype_default">0000000</string>
+    <string name="title_devicetype">设备型号</string>
+    <string name="title_deviceid">设备编号</string>
+    <string name="version_default">1.0</string>
+    <string name="title_version">应用版本</string>
+    <string name="title_bluetooth">设置打印机蓝牙</string>
+
+    <!-- 服务端口号 -->
+    <string name="text_port">输入端口号</string>
+    <string name="hint_port">在此输入端口号</string>
+    <string name="title_port">端口号</string>
+    <string name="port_default">83</string>
+
+    <!-- 后台服务 -->
+    <string name="value_web_time">30</string>
+
+    <string name="qp_default">192.168.1.58</string>
+    <string name="text_webserver">输入后台服务IP地址</string>
+    <string name="hint_webserver">在此输入后台服务IP地址</string>
+    <string name="title_webserver">后台服务IP地址</string>
+    <!-- FTP -->
+    <string name="text_port_ftp">输入FTP端口号</string>
+    <string name="hint_port_ftp">在此输入FTP端口号</string>
+    <string name="title_port_ftp">FTP端口号</string>
+    <string name="ftp_default">192.168.1.91</string>
+    <string name="text_ftpserver">输入文件上传服务IP地址</string>
+    <string name="hint_ftpserver">在此输入FTP服务IP地址</string>
+    <string name="title_ftpserver">FTP服务IP地址</string>
+    <string name="title_webtest">网络测试</string>
+    <string name="title_activity_delay_print">DelayPrintActivity</string>
+    <string name="title_activity_exchange_goods">ExchangeGoodsActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!--Ftp默认值 -->
+    <string name="ftpport_default">22</string>
+    <string name="txt_ftpport">输入文件上传FTP端口号</string>
+    <string name="hint_ftpport">在此输入FTP端口号</string>
+    <string name="title_ftpport">FTP服务端口号</string>
+    <string name="value_ftp_time">30</string>
+    <string name="value_ftp_port">22</string>
+    <string name="value_ftp_user">shlpg</string>
+    <string name="value_ftp_password">shlpg</string>
+    <!-- 巡检项 -->
+    <string name="StopSupplyType1">调压器泄漏</string>
+    <string name="StopSupplyType2">热水器无烟道或烟道安装不规范</string>
+    <string name="StopSupplyType3">使用场所不规范</string>
+    <string name="StopSupplyType4">未按规定安装使用泄漏报警器 </string>
+    <string name="StopSupplyType5">调压器使用不规范</string>
+    <string name="StopSupplyType6">商业餐饮用户未按规定设瓶组间或无瓶库</string>
+    <string name="StopSupplyType7">同室使用二种及以上气源</string>
+
+    <!-- s8取消之后更改为“其他隐患” -->
+    <string name="StopSupplyType8">其他严重隐患</string>
+    <string name="UnInstallType1">使用非强制排风热水器</string>
+    <!-- -20181214 U2 燃气具设施未年检  【新增】 -->
+    <string name="UnInstallType2">燃气具设施未年检</string>
+    <string name="UnInstallType3">使用非安全型灶具</string>
+    <string name="UnInstallType4">使用场所排风不畅</string>
+    <!-- 20181214 U5 用气场所设置不合理  【新增】-->
+    <string name="UnInstallType5">用气场所设置不合理</string>
+    <string name="UnInstallType6">橡胶管使用不规范</string>
+    <!-- 20181214 -U7 蒸饭箱沸水炉未装烟道 【新增】 -->
+    <string name="UnInstallType7">蒸饭箱沸水炉未装烟道</string>
+    <string name="UnInstallType8">连接设施无夹箍</string>
+    <string name="UnInstallType9">燃气具故障</string>
+    <string name="UnInstallType10">强制使用液化气</string>
+    <string name="UnInstallType11">餐饮用户灶位排烟设施不全</string>
+    <string name="UnInstallType12">其他隐患</string>
+    <!-- 整改新增加项目 -->
+    <string name="update">更新</string>
+    <string name="repair">修复</string>
+    <string name="stop">停用</string>
+    <string name="result">其他</string>
+
+    <!-- 灶位勘探 简称-->
+    <!-- 居民[resident] -->
+    <string name="r1">安装要求</string>
+    <string name="r2">厨房建筑要求</string>
+    <string name="r3">钢瓶储存条件</string>
+    <string name="r4">存放气体标准</string>
+    <string name="r5">燃气热水器安装要求</string>
+    <string name="r6">燃气灶具要求</string>
+    <string name="r7">连接管要求</string>
+    <!-- <string name="r1">液化气钢瓶及灶具应安装在有自然通风和自然采光的厨房内，厨房内易设置排气装，严禁安装在卧室及卫生间使用，不可利用与卧室连接的走廊作厨房。地下室、半地下室、无通风窗户的封闭灶间、高层民用建筑内均不得使用液化气</string>
+ <string name="r2">厨房建筑层高度不低于2米，建筑面积不小于1.5平方米</string>
+ <string name="r3">液化气钢瓶应存放在干燥、便于操作的使用位置、并应直立安放</string>
+ <string name="r4">同室未存放两种及以上气源，以及其它燃油、燃煤等易燃易爆物质</string>
+ <string name="r5">燃气热水器应安装在通风良好的厨房间或者符合安装条件的过道、阳台内；热水器的排气管应采用专用管道。烟道式燃气热水器不得安装在卫生间内</string>
+ <string name="r6">燃气灶具应为与液化气匹配的带有有熄火保护装置的安全型燃气器具</string>
+ <string name="r7">燃气灶具与液化气钢瓶连接管应当使用液化气专用的耐油胶管或专用的金属软管</string>-->
+    <!-- 商户[commercial] -->
+    <string name="c1">钢瓶储存要求</string>
+    <string name="c2">供应管道材料要求</string>
+    <string name="c3">管道安装标准</string>
+    <string name="c4">民用燃烧器的连接软管要求</string>
+    <string name="c5">钢瓶冷却装置要求</string>
+    <string name="c6">钢瓶符合有效期内</string>
+    <string name="c7">钢瓶质量要求</string>
+    <string name="c8">专用瓶库环境外观要求</string>
+    <string name="c9">专用瓶库须有冷却装置</string>
+    <string name="c10">瓶库内严禁存放要求</string>
+    <string name="c11">钢瓶总容量超过500kg的用户,需向消防部门报备</string>
+
+    <string name="more">查看详细</string>
+    <!-- 灶位勘探详细说明 -->
+    <!-- 居民[resident] -->
+    <string name="r1_d">液化气钢瓶及灶具应安装在有自然通风和自然采光的厨房内，厨房内易设置排气装，
+       严禁安装在卧室及卫生间使用，不可利用与卧室连接的走廊作厨房。地下室、半地下室、无通风窗户的封闭灶间、高层民用建筑内均不得使用液化气</string>
+    <string name="r2_d">厨房建筑层高度不低于2米，建筑面积不小于1.5平方米</string>
+    <string name="r3_d">液化气钢瓶应存放在干燥、便于操作的使用位置、并应直立安放</string>
+    <string name="r4_d">同室未存放两种及以上气源，以及其它燃油、燃煤等易燃易爆物质</string>
+    <string name="r5_d">燃气热水器应安装在通风良好的厨房间或者符合安装条件的过道、阳台内；热水器的排气管应采用专用管道。烟道式燃气热水器不得安装在卫生间内</string>
+    <string name="r6_d">燃气灶具应为与液化气匹配的带有有熄火保护装置的安全型燃气器具</string>
+    <string name="r7_d">燃气灶具与液化气钢瓶连接管应当使用液化气专用的耐油胶管或专用的金属软管</string>
+    <!-- 商户[commercial] -->
+    <string name="c1_d">液化石油气钢瓶必须存放在安全、可靠的独立房间内，该房间应避开人员密集场所，且与其他房间相邻的墙为无门、窗、孔、洞的防火墙，并应采取必要的通风措施，房间内使用的电气设备应采用防爆型。
+        高层民用建筑、公共娱乐场所、地下或半地下室内严禁使用液化石油气钢瓶</string>
+    <string name="c2_d">瓶组供应系统的管道应采用无缝钢管或镀锌钢管等金属材料，管道宜采用焊接或法兰连接，并进行压力试验和气密性试验。管道系统上的连接软管应采用丁晴橡胶等耐油材质</string>
+    <string name="c3_d">管道穿过建筑物基础、墙体或管沟时，应敷设在套管内中，并考虑沉降等影响，必要时应采取补救措施，管道不应敷设在地下室、半地下室，设备层或吊顶夹层等隐蔽空间内，不得穿越人员密集场所、无关房间或影响人员安全疏散等重要场所。
+        室内管道不得穿过易燃易爆危险物品仓库、配电间、变电间、电缆沟、烟道、进风道和重要设备用房等地方，不应敷设在潮湿或有腐蚀性介质的房间内</string>
+    <string name="c4_d">民用燃烧器的连接软管长度不应超过1.5米，并不应有接口；工业生产用的连接软管长度不宜超过2米，接口不应超过2个，并应连接牢固，软管不得穿越墙、窗和门</string>
+    <string name="c5_d">瓶组供气的钢瓶使用点应设置简易喷水冷却装置，配置相应的灭火器材，禁止采用明火采暖和烘烤钢瓶，钢瓶使用单位应制定相应的安全管理制度和操作规程并公布执行，相关作业人员应经消防安全知识培训并持证上岗</string>
+    <string name="c6_d">钢瓶应在有效期内使用，减压阀、软管应每日检查，管道和用气设备、安全设施等附件应定期检测、定期维修保养，确保用气安全和临警能用</string>
+    <string name="c7_d">钢瓶总容量超过60公斤的用户应设置液化气钢瓶专用瓶库，与瓶库相邻的墙应为无门、窗、孔洞的防火墙。瓶库地面应采用不发火花材料，其技术要求符合现行国家标准，并应无下水道、孔洞等通往外部的暗沟道</string>
+    <string name="c8_d">专用瓶库高度不得低于2.2m，门、窗向外开启并应有防止擦出火星的措施，库门确实无法向外开启而向内开启时，应采用双门斗密封措施，但通风窗应向外开启，通风窗不少于两个，通风口总面积不应小于100mm/m，通风口下沿距室内地坪宜为0.2m以下，屋顶宜采用不超过120kg/m的轻质非燃材料</string>
+    <string name="c9_d">专用瓶库属严重危险级场所，应设置喷水冷却装置，供水压力不低于0.1Mpa，瓶库外进水管道上设置控制阀，并配置不少于2只8kg以上干粉灭火器或其它相应灭火器材。另外瓶库内应设置固定式可燃气体浓度报警装置，室内电气设备线路的安装和敷设应符合国家标准的规定</string>
+    <string name="c10_d">瓶库内严禁砌置水槽及堆放其他杂物，钢瓶必须直立存放和使用，严禁卧倒、斜立使用，瓶库周围应制定禁火区域，设置明显禁火标志</string>
+    <string name="c11_d">钢瓶总容量超过500kg的用户，建造瓶库应报区消防支队审批，并经消防验收合格后使用</string>
+
+    <string name="btn1">拍照</string>
+    <string name="btn2">预览</string>
+    <string name="btn3">提交</string>
+    <!-- 供应站后台服务 -->
+    <string name="station_default">11.123.16.81</string>
+    <string name="text_stationserver">输入供应站服务IP地址</string>
+    <string name="txt_stationserver">供应站服务配置信息</string>
+    <string name="hint_stationserver">在此输入供应站服务IP地址</string>
+    <string name="title_stationserver">供应站服务后台服务IP地址</string>
+    <!-- 气瓶后台服务 -->
+    <string name="gp_default">11.123.16.81</string>
+    <string name="text_gpserver">输入钢瓶采集服务IP地址</string>
+    <string name="txt_gpserver">钢瓶采集服务配置信息</string>
+    <string name="hint_gpserver">在此输入钢瓶采集服务IP地址</string>
+    <string name="title_gpserver">钢瓶采集服务IP地址</string>
+    <string name="stationport_default">80</string>
+    <string name="text_stationport">输入供应站服务端口号</string>
+    <string name="hint_stationport">在此输入供应站服务端口号</string>
+    <string name="title_stationport">供应站服务端口号</string>
+
+    <string name="gpport_default">80</string>
+    <string name="text_gpport">输入钢瓶采集服务端口号</string>
+    <string name="hint_gpport">在此输入钢瓶采集服务端口号</string>
+    <string name="title_gpport">钢瓶采集服务端口号</string>
+    <!--
+数据库版本 -->
+    <string name="db_default">1.0.1</string>
+    <string name="title_dbversion">数据库版本</string>
+    <string name="title_activity_transfer_sation">TransferSationActivity</string>
+</resources>

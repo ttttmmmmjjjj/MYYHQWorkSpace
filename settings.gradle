@@ -1,0 +1,2 @@
+include ':app', ':dialoglibrary', ':dragdellistview', ':czqpapplication', ':refreshlayout', ':qpmanagermobilebackupversion', ':fxqpmanager', ':wheelview', ':gridview', ':floatbutton',
+        ':szapplication', ':spinerwindow'

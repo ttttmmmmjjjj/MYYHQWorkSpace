@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--主页底部导航 -->
+    <color name="lucency_black">#00000000</color>
+    <color name="tab_text_selected">#ff0084e8</color>
+    <color name="tab_text_normal">#144c7b</color>
+    <color name="white">#ffffffff</color>
+    <!--九宫格 -->
+    <color name="line">#ffd3dde6</color>
+    <color name="linene">#ff000000</color>
+    <color name="commo_text_color">#ff333333</color>
+    <!-- -->
+    <color name="maincolor">#DD4B39</color>
+</resources>
